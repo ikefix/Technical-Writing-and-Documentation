@@ -11,7 +11,7 @@ tags: javascript, nodejs, gdg, technical-writing-1, backend-developments
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705748591455/00beb8a3-8120-47c7-b87b-2d24b341fe09.jpeg align="center")
 
-Javascript is a very powerful programming language to work with reason being that it can be used to build our frontend application, Backend Application all at the same time. In this article, we will be building a Node server in two minutes.
+Javascript is a very powerful programming language to work with reason being that it can be used to build our frontend application, Backend Application all at the same time. In this article, we will be building a Node server in four minutes.
 
 **STEP1: DOWNLOADING AND INSTALLING NODE.JS.**
 
@@ -51,11 +51,11 @@ after importing it we create an instance of the application and set the port to 
 
 after that, we create a route for the root URL (“/”) that sends the message "Welcome to my server"
 
-`app.get('/', (req, res) => {   res.send('Welcome to my server!');   });`
+`app.get('/', (req, res) => { res.send('Welcome to my server!'); });`
 
 Then finally we will start the server
 
-``app.listen(port, () => {   console.log(`Server is running on port ${port}`);   });``
+``app.listen(port, () => { console.log(`Server is running on port ${port}`); });``
 
 **STEP5: LAUNCHING THE SERVER:**
 
