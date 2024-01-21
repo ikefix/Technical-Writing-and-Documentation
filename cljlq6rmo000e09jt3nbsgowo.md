@@ -11,13 +11,13 @@ tags: web-development, react-native, reactjs, meta, metaverse
 
 ### **What is Hook?:**
 
-The hook is a very good tool in React. It was added to React in Version 16.8. Hooks allow functional components to have access to state and other React features. This makes class components not to be needed. Since the introduction of Hooks, class components has being replaced with functional components.
+The hook is a very good tool in React. It was added to React in Version 16.8. Hooks allow functional components to have access to state and other React features. This makes class components not to be needed. Since the introduction of Hooks, class components have been replaced with functional components.
 
-The useState is a react Hook that enables a developer in adding state variables to functional components.
+The useState is a react Hook that enables a developer to add state variables to functional components.
 
-<mark>const [state, setState] = useState(initialState);</mark>
+`const [state, setState] = useState(initialState);`
 
-The useState returns two arrays, the current state and the function to update. An initial state is passed to the Hook <mark>useState(initialState)</mark> and returns an updated state value whenever the setter function is called.
+The useState returns two arrays, the current state and the function to update. An initial state is passed to the Hook `useState(initialState)` and returns an updated state value whenever the setter function is called.
 
 The useState is called at the top level of our component
 
@@ -27,25 +27,25 @@ Stages in implementing useState.
 
 *Stage1*: import the useState Hook at the top of Your component
 
-<mark>import {useState} from ‘react’;</mark>
+`import {useState} from ‘react’;`
 
-***Stage2***: we initialize useState  <mark>useState(initialState)</mark> by calling useState in our function component.
+***Stage 2***: we initialize useState `useState(initialState)` by calling useState in our function component.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1688161323531/54a6c27d-f769-48d8-bd9d-2eeeb252422d.png align="center")
 
-Here the argument passed inside the useState() is the initialState <mark>20</mark>, <mark>omeke</mark>, <mark>University of Port Harcourt Nigeria</mark>. respectively
+Here the argument passed inside the useState() is the initialState `20, omeke, University of Port Harcourt Nigeria. respectively`
 
 The idea here is to make state variables like \[something setSomething\].
 
 *Let’s analyze the parameters deployed for useState.*
 
-From this; <mark>[state, setState] = useState(initialState);</mark>
+From this; `[state, setState] = useState(initialState);`
 
-<mark>useState</mark>: the useState returns an array with two values;
+`useState`: the useState returns an array with two values;
 
-i.The current state <mark>(initialState)</mark>
+i.The current state `(initialState)`
 
-ii. The set function (setState). This state enables us to update the state to a different value and this trigger a re-render
+ii. The set function (setState). This state enables us to update the state to a different value and this triggers a re-render
 
 Note that the useState can only be called at the top level of your component, it can not be called inside of loops, conditionals, and nested functions.
 
@@ -77,6 +77,6 @@ Initialize countValue to zero by passing zero as the useState argument.
 
 When the user clicks on setCount with a new value, react will re-render the component and pass in the new value of the countValue.
 
-<mark>Conclusion</mark>
+**Conclusion**
 
 The useState Hook is very important for every Frontend Engineer to be familiar with, it helps us create and track the state changes.
